@@ -5,5 +5,8 @@ function takeANumber(currentLine, newName) {
 }
 
 function nowServing(katzDeliLine) {
-
+  if (katzDeliLine.length > 0) {
+    return katzDeliLine[0];
+    katzDeliLine.slice(0);
+  }
 }
