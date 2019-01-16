@@ -17,8 +17,6 @@ function nowServing(katzDeliLine) {
 function currentLine(currentLine) {
   if ( currentLine.length > 0 ) {
     for (var i = 0; i < currentLine.length; i++) {
-      console.log("--------->>>", [i]);
-      console.log("~~~~~~~~~~~~~~", currentLine.length)
       // return `The line is currently: ${i}. ${currentLine[i]}`
     }
   }
