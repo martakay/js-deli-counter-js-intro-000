@@ -21,7 +21,7 @@ function currentLine(currentLine) {
     for (var i = 0; i < currentLine.length; i++) {
       names.push(`${[i]}. ${currentLine[i]},`);
     }
-    return `${names[i]}`
+    return `${names[i]}`;
   }
   else {
     return "The line is currently empty."
