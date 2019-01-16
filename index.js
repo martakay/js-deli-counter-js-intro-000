@@ -19,8 +19,8 @@ function currentLine(currentLine) {
     for (var i = 0; i < currentLine.length; i++) {
       return `The line is currently: ${i}. ${currentLine[i]}`
     }
-    else {
-      return "The line is currently empty."
-    }
+  }
+  else {
+    return "The line is currently empty."
   }
 }
