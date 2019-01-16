@@ -1,3 +1,3 @@
 function takeANumber(currentLine, newName) {
-  return `Welcome, ${newName}. You are number ${currentLine} += 1 in line`;
+  return `Welcome, ${newName}. You are number currentLine in line`;
 }
