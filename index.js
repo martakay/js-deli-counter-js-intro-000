@@ -15,10 +15,12 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(currentLine) {
+  var names = [];
+
   if ( currentLine.length > 0 ) {
     for (var i = 0; i < currentLine.length; i++) {
+      names.push(`${[i]}`)
       // return `The line is currently: ${i}. ${currentLine[i]}`
-      return `The line is currently: ${currentLine.join(', ')}`
 
     }
   }
